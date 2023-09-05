@@ -1,0 +1,182 @@
+body {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  padding: 10px;
+  background-color: black !important;
+}
+
+.main_container {
+  flex: 1;
+  background-color: black;
+  display: flex;
+  overflow: hidden;
+}
+.left_container {
+  flex: 1;
+  background-color: black;
+  border-radius: 10px;
+  margin-right: 7px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+  overflow-y: scroll;
+  padding-bottom: 100px;
+}
+.right_container {
+  flex: 3;
+  background-color:black;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+.lower_container {
+  height: 70px;
+  width: 100%;
+  bottom: 30px;
+  position: fixed;
+  background-color: black;
+  cursor: pointer;
+}
+
+.logo_header {
+  color: aliceblue;
+  flex: 0.25;
+  background-color: black;
+  font-size: 10px;
+
+  margin-left: 0 !important;
+}
+.logo_header > img {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.left_second {
+  margin-left: 30px;
+  font-size: 15px;
+  margin-top: 10px;
+}
+.second > img {
+  height: 17px;
+  width: 17px;
+}
+.left_third {
+  margin-left: 30px;
+  font-size: 15px;
+  margin-top: 30px;
+  margin-bottom: 200px !important;
+}
+
+.second {
+  margin-top: 15px;
+}
+
+.right_textwithimage {
+  height: 400px;    
+  width: 100%;
+  color: aliceblue;
+  background-color: #8ca9a2;
+  display: flex;
+  align-items: center;
+ 
+}
+.textwith_dot{
+    display: flex;
+    color: C4C8C7;
+   
+}
+
+.pop_text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+.spt{
+    color: #FFFFFF;
+}
+.right_container {
+  overflow-y: scroll;
+}
+.nav_section {
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    padding: 30px;
+    margin-right: 15px;
+    align-items: center;
+    color: aliceblue;
+    cursor: pointer;
+  }
+  
+
+.actor_container {
+  height: 700px;
+  width: 100%;
+}
+.actor_songHeading{
+    display: flex;
+    color: aliceblue;
+    justify-content: space-between;
+    margin-left: 10px;
+    
+    
+}
+.actor_song{
+    display: flex;
+    color: aliceblue;
+    justify-content: space-around;
+    margin: 20px;
+    margin-left: 5px;
+}
+.fst_row_img {
+  display: flex;
+  justify-content: center;
+}
+.fst_column{
+    display: flex;
+}
+.fourth_column{
+    display: flex;
+}
+
+
+.footer_container {
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  position: fixed;
+  bottom: 0;
+  height: 90px;
+  
+}
+.left_part {
+  display: flex;
+}
+
+.lft > p {
+  font-size: 10px;
+}
+
+.right_part {
+  margin-top: 25px;
+ margin-right: -100px !important;
+}
+.plus {
+  background-color: white;
+}
+.play {
+  color: white;
+}
+.middle_part{
+    width: 40% !important;
+    margin-right: 300px;
+    margin-left: 150px;
+  }
+
+
+
+
+

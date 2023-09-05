@@ -1,0 +1,256 @@
+body {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  padding: 10px;
+  background-color: black !important;
+}
+
+.main_container {
+  flex: 1;
+  background-color: black;
+  display: flex;
+  overflow: hidden;
+}
+.left_container {
+  flex: 1;
+  background-color: black;
+  border-radius: 10px;
+  margin-right: 7px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+  overflow-y: scroll;
+}
+.right_container {
+  flex: 3;
+  background-color: black;
+  border-radius: 10px;
+  margin-bottom: 40px;
+
+}
+.lower_container {
+  height: 70px;
+  width: 100%;
+  bottom: 30px;
+  position: fixed;
+  background-color:black;
+  cursor: pointer;
+}
+
+.logo_header {
+  color: aliceblue;
+  flex: 0.25;
+  background-color: black;
+  font-size: 10px;
+
+  margin-left: 0 !important;
+}
+.logo_header > img {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.left_second {
+  margin-left: 30px;
+  font-size: 15px;
+  margin-top: 10px;
+}
+.second > img {
+  height: 17px;
+  width: 17px;
+}
+.left_third {
+  margin-left: 30px;
+  font-size: 15px;
+  margin-top: 30px;
+}
+.left_fourth {
+  margin-top: 20px;
+}
+.four_txt {
+  padding: 10px;
+  margin-left: 30px;
+}
+.four_txt:hover{
+    background-color: #303030;
+    cursor: pointer;
+}
+.fifth_text {
+  margin-top: 10px;
+  margin-left: 30px;
+  font-size: 15px;
+}
+.fifth_text:hover{
+    background-color: #303030;
+    cursor: pointer;
+}
+.fifth_text > img {
+  margin-right: 20px;
+}
+.second:hover {
+  background-color: #303030;
+  cursor: pointer;
+}
+.second {
+  margin-top: 15px;
+}
+.nav_section {
+  height: 50px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: aliceblue;
+  cursor: pointer;
+}
+.right_textwithimage {
+  display: flex;
+  height: 300px;
+  width: 100%;
+  margin-top: 10px;
+  border: 1px solid black;
+  color: aliceblue;
+  font-size: 15px;
+  background-color: black;
+  flex-wrap: wrap;
+}
+.mng_text {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+  margin-top: 25px;
+}
+.right_text_container {
+  background-color: black;
+}
+.only_img {
+  height: 100px;
+  width: 332px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+  background-color: #303030;
+  margin-left: 15px;
+}
+.only_img > img {
+  margin-right: 15px;
+}
+.right_container {
+  overflow-y: scroll;
+}
+.only_img:hover {
+  box-shadow: 1px 1px rgb(97, 96, 96);
+  cursor: pointer;
+}
+.actor_container{
+    height: 700px;
+  width: 100%;
+    
+}
+.aimage{
+    height: 273px;
+    width: 251px;
+    border: 1px solid rgb(70, 68, 68);
+    box-sizing: border-box;
+    border: none !important;
+    margin: 20px;
+    text-align: center;
+    color: beige;
+    background-color: black;
+}
+.fst_row_img{
+    display: flex;
+    justify-content: center;
+}
+
+.second_row_img{
+    display: flex;
+    justify-content: center;
+     
+}
+.aimage:hover{
+    box-shadow: 1px 2px blueviolet;
+    cursor: pointer;
+}
+.footer_container{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.left_part{
+    display: flex;
+    
+}
+.lft>p{
+    font-size: 10px;
+}
+
+.green_part{
+    height: 20px;
+    position: fixed;
+    bottom: 0;
+    background-color:  #1ED760;
+    width: 100%;
+    text-align: end;
+    font-weight: bold;
+}
+.right_part{
+    margin-top: 25px;
+   width: 17%;
+}
+.plus{
+background-color: white;
+}
+a{
+  text-decoration: none !important;
+  color: white !important;
+}
+
+@media screen and (max-width:768px) {
+   .left_container{
+    display: none;
+   }
+  
+   .right_textwithimage{
+    display: flex !important;
+    width: 100%;
+    flex-wrap: nowrap;
+    
+    overflow-x: scroll;
+   }
+   .nav_section{
+    display: none;
+   }
+   .left_part,.right_part{
+    display: none;
+   }
+    .middle_part{
+      margin-left: -170px;
+      
+    }
+   .actor_img{
+    margin-top: -160px;
+   }
+   .green_part{
+    display: none;
+   }
+   .footer_container{
+    position: fixed;
+    bottom: 0;
+   }
+}
+
+
+
+
+
+
+
+
+
